@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background:#000;
+            color:#fff;
+            padding:0;
+            margin:0;
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        #img {
+            width: 100%;
+            max-width: 100%;
+            visibility: hidden;
+        }
+
+        #container {
+            position: relative;
+            background: url('main.jpg') 50% 0 no-repeat;
+            background-size: contain;
+            box-shadow: inset 0 0 10px 5px #000;
+        }
+
+        #links {
+            position: absolute;
+            height: 6%;
+            width: 100%;
+            top: 4%;
+        }
+        #links a {
+            display:block;
+            position: absolute;
+            height:100%;
+            text-indent: -999em;
+        }
+        #link-about {
+            width: 11%;
+            left: 8%;
+        }
+        #link-vk {
+            width: 4%;
+            left: 40%;
+        }
+        #link-facebook {
+            width: 4%;
+            left: 44%;
+        }
+        #link-instagram {
+            width: 4%;
+            left: 49.5%;
+        }
+        #link-youtube {
+            width: 22%;
+            left: 72%;
+        }
+        #link-bbf {
+            display: block;
+            position: absolute;
+            height: 11%;
+            text-indent: -999em;
+            width: 7%;
+            top: 70%;
+            left: 79%;
+        }
+    </style>
+    <title>3Dance Show</title>
+</head>
+<body>
+<div id="container">
+    <img src="main.jpg" id="img"/>
+    <div id="links">
+        <a href="about.pdf" target="_blank" id="link-about" title="О проекте">О проекте</a>
+        <a href="https://vk.com/3danceshow" target="_blank" id="link-vk" title="Вконтакте">Вконтакте</a>
+        <a href="https://www.facebook.com/events/856828284431031/" target="_blank" id="link-facebook">Facebook</a>
+        <a href="https://www.instagram.com/3dance_show/" target="_blank" id="link-instagram" title="Instagram">Instagram</a>
+        <a href="https://www.youtube.com/watch?v=nwBWSXcjKhU" target="_blank" id="link-youtube" title="Смотреть ролик">Смотреть ролик</a>
+    </div>
+    <a href="http://bigbagfilms.ru" target="_blank" id="link-bbf" title="О проекте">BigBagFilms</a>
+</div>
+</body>
+</html>
